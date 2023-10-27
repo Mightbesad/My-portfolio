@@ -10,8 +10,8 @@ export default {
           imageUrl: 'myportfolio',
           status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
           tech: 'VueJS 3, Tailwind',
-          github: '',
-          demo: ''
+          github: 'https://github.com/Mightbesad/My-portfolio',
+          demo: 'https://my-portfolio-two-virid.vercel.app/#/'
         },
         {
           id: 2,
