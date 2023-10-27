@@ -3,7 +3,7 @@
     class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]">
     <div class="space-y-2 text-center md:text-left px-10">
       <p class="text-amber-200">Hello World, I'm</p>
-      <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up">Francis Emmanuel</h1>
+      <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up custom-paragraph">Francis Emmanuel</h1>
       <div class="py-2">
         <h1
           class="typewrite text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-yellow-500 md:text-2xl fadein-up"
@@ -11,7 +11,7 @@
           <span class="wrap">{{ txt }}</span>
         </h1>
       </div>
-      <p class="text-white pr-4 fade-in-from-left">Welcome to My personal portfolio. <span class="wave">👋🏼</span></p>
+      <p class="text-white pr-4 fade-in-from-left custom-paragraph">Welcome to My personal portfolio. <span class="wave">👋🏼</span></p>
       <br>
       
       <button @click="download"
@@ -29,7 +29,7 @@
         </svg>Download Resume</button>
     </div>
     <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
-        class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict" src=https://ucarecdn.com/c6e966a3-56fd-4d5d-a9a5-41371b2e15dc/-/preview/1000x400/-/format/auto/-/quality/smart_retina/>
+        class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict" src=https://ucarecdn.com/ded01a2d-5a2e-4426-a042-9d4784f230a9/-/preview/500x500/-/quality/smart/-/format/auto/>
     </div>
   </main>
 </template>
@@ -231,5 +231,13 @@ body {
 }
 .fade-500 {
   animation-delay: 500ms;
+}
+
+/* Import the Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+/* Apply the Montserrat font to your specific paragraph */
+.custom-paragraph {
+  font-family: 'Space Grotesk', sans-serif;
 }
 </style>
