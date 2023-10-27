@@ -5,21 +5,43 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    meta: { title: 'Home' }
   },
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import('../views/AboutView.vue'),
+    meta: { title: 'About' }
+  },
+  {
+    path: '/portfolio',
+    name: 'portfolio',
+    component: () => import('../views/PortfolioView.vue'),
+    meta: { title: 'Portfolio' }
+  },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: () => import('../views/BlogView.vue'),
+    meta: { title: 'Blog' }
+  },
+  {
+    path: '/read/:slug/:id',
+    name: 'articleDetail',
+    component: () => import('../views/ArticleView.vue'),
+    meta: { title: 'Article' }
   }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory(), // Use createWebHashHistory for hash-based routing
   routes
 })
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title + ' - my-portfolio'; // Update with your website name
+  next();
+});
 
 export default router
