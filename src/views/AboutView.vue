@@ -130,7 +130,7 @@ export default {
         </div>
 
         <!-- Email Link -->
-        <a href="mailto:your.email@example.com">
+        <a href="mailto:francemma20@gmail.com">
   <button class="fadein-bot fade-500 flex items-center py-2 px-4 mx-auto text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 md:mx-0 text-amber-200 border-amber-200 hover:bg-amber-200 hover:bg-opacity-10 bg-transparent focus:outline-none w-fit">
     <!-- Email Icon (using an SVG) -->
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
