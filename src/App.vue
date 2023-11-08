@@ -68,10 +68,10 @@ export default {
   box-sizing: border-box;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 5px; 
   height: 5px;
-} */
+}
 
 ::-webkit-scrollbar-track {
   background: hsl(240, 1%, 17%);
