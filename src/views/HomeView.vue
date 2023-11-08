@@ -268,8 +268,5 @@ body {
 }
 
 
-.button-container button {
-  display: block;
-}
 
 </style>

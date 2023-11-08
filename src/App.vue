@@ -115,7 +115,7 @@ nav a.router-link-exact-active {
 nav a.router-link-exact-active::after {
   display: inline-block;
   content: "";
-  margin-top: 0.08em;
+  margin-top: 0.2em;
   width: 100%;
   height: 4px;
   border-radius: 2px;
