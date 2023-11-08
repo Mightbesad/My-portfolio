@@ -31,7 +31,7 @@
     </div>
     <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="300"
         height="300" decoding="async" data-nimg="1" class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict"
-        src=https://ucarecdn.com/ded01a2d-5a2e-4426-a042-9d4784f230a9/-/preview/500x500/-/quality/smart/-/format/auto />
+        src=https://ucarecdn.com/ded01a2d-5a2e-4426-a042-9d4784f230a9/-/preview/500x500/-/quality/smart/-/format/auto/ />
     </div>
   </main>
 </template>
