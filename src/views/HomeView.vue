@@ -268,8 +268,8 @@ body {
 }
 
 
-/* .button-container button {
-
-} */
+.button-container button {
+  display: block;
+}
 
 </style>
