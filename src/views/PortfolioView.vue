@@ -35,11 +35,21 @@ export default {
           id: 4,
           name: 'Movies-Genie',
           imageUrl: 'moviesgenie',
-          status: 'My movie website is a one-stop platform for movie enthusiasts. It offers a wide range of movie information, fetched through APIs, including details about films, actors, and directors. Users can search for movies, explore actor/director profiles, and receive personalized recommendations.',
+          status: 'My personal weather website is your trusted resource for weather updates. I provide real-time weather information, forecasts, and historical data from various meteorological APIs. Stay informed and prepared with my user-friendly platform.',
           tech: 'VueJS 3, Sass ',
           github: 'https://github.com/Mightbesad/Movies_genie',
           demo: 'null'
-        }
+        },
+        {
+          id: 5,
+          name: 'Weather-app',
+          imageUrl: 'wether',
+          status: 'My movie website is a one-stop platform for movie enthusiasts. It offers a wide range of movie information, fetched through APIs, including details about films, actors, and directors. Users can search for movies, explore actor/director profiles, and receive personalized recommendations.',
+          tech: 'VueJS 3, Tailwind CSS ',
+          github: 'https://github.com/Mightbesad/Weather-app',
+          demo: 'https://weather-app-seven-topaz.vercel.app/'
+        },
+        
       
       ]
     };

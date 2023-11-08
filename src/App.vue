@@ -137,10 +137,10 @@ nav a.router-link-exact-active:hover {
     transform: translateX(0);
   }
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+ 
 .custom-p{
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 </style>
